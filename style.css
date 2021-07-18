@@ -1,0 +1,54 @@
+body{
+    font-family: 'Poppins';
+    background-color: rgb(3, 3, 3);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.hasil{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+    width: 50%;
+    border: 10px;
+    border-radius: 10px;
+}
+.hasil p{
+    padding: 30px;
+    text-align: right;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+
+.pertama,.kedua,.ketiga,.keempat{
+    display: flex;
+    justify-content: center;
+
+}
+
+.tombol{
+    border-radius: 10px;
+    width: 10%;
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+    justify-content:space-between ;
+    margin: 5px 10px 5px 10px;
+    color: rgb(0, 185, 130);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tombol:focus{
+    background-color: rgb(246, 128, 30);;
+}
+
+
+.tombol p {
+    font-size: 26px;
+    text-align: center;
+}

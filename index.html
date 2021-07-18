@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
+</head>
+<body>
+
+    <h1>Calculator</h1>
+    <div class="all-calculator">
+        <div class="hasil">
+            <p id="hasil" >0</p>
+        </div>
+
+        <div class="pertama"> <!-- 7 , 8 , 9 , x-->
+            <button type="button" class="angka tombol tujuh" value="7">
+                <p>7</p>
+            </button>
+            <button class="angka tombol delapan" value="8">
+                <p>8</p>
+            </button>
+            <button class="angka tombol sembilan" value="9">
+                <p>9</p>
+            </button>
+            <button class="operator tombol kali" value="*">
+                <p>X</p>
+            </button>
+        </div>
+
+        <div class="kedua"> <!-- 4 , 5 , 6 , - -->
+            <button class="angka tombol empat" value="4">
+                <p>4</p>
+            </button>
+            <button class="angka tombol lima" value="5">
+                <p>5</p>
+            </button>
+            <button class="angka tombol enam" value="6">
+                <p>6</p>
+            </button>
+            <button class="operator tombol kurang" value="-">
+                <p>-</p>
+            </button>
+        </div>
+
+        <div class="ketiga"> <!-- 1 , 2 , 3 , + -->
+            <button class="angka tombol satu" value="1">
+                <p>1</p>
+            </button>
+            <button class="angka tombol dua" value="2">
+                <p>2</p>
+            </button>
+            <button class="angka tombol tiga" value="3">
+                <p>3</p>
+            </button>
+            <button class="operator tombol tambah" value="+">
+                <p>+</p>
+            </button>
+        </div>
+
+        <div class="keempat"> <!-- reset , 0 , =-->
+            <button class="tombol reset">
+                <p>reset</p>
+            </button>
+            <button class="angka tombol nol" value="0">
+                <p>0</p>
+            </button>
+            <button class="tombol samadengan">
+                <p>=</p>
+            </button>
+            <button class="operator tombol bagi" value="/">
+                <p>/</p>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
